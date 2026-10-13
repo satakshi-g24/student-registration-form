@@ -1,0 +1,36 @@
+.container{
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+  display: grid;
+  gap: 10px;
+}
+
+input, select{
+  padding: 10px;
+}
+
+label{
+  display:flex;
+  gap:10px;
+}
+
+button{
+  padding: 10px;
+  background: blue;
+  color:white;
+  border:none;
+  cursor: pointer;
+}
+
+.error{
+  color:red;
+  font-weight: bolder;
+}
+
